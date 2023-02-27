@@ -1,0 +1,62 @@
+.wrapper {
+  margin-top: 10%;
+  position: relative;
+}
+
+.circle {
+  background-image: url(./assets/Subtract.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+  animation: 1s linear 0s normal none infinite running rot;
+  -webkit-animation: 5s linear 0s normal none infinite running rot;
+}
+
+
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+
+.main-block {
+  position: relative;
+  background-image: url(./assets/Group\ 3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+  top: -380px;
+}
+
+.main-block h1 {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  left: 27%;
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.main-block p {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  left: 40%;
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
